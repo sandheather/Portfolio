@@ -1,6 +1,6 @@
 # Heather Sanders
 
-#### [☛ heathersanders.ca](https://heathersanders.ca)
+#### [☛ heathersanders.ca](https://heathersanders.ca/)
 
 Heather Sanders is a Graphic Design student at Algonquin College. She believes in learning new things everyday not only to grow as a person but as a designer. Illustration is her passion
 
