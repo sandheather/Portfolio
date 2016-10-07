@@ -1,0 +1,128 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+}
+
+.logo{
+width: 100%;
+}
+
+.hero {
+	padding: 20px;
+	background-color: #D7FFFB;
+}
+
+.work {
+	padding: 20px;
+	background-color: #E6E7E8;
+}
+
+.contact {
+	padding: 20px;
+		background-color: #F1F2F2;
+}
+
+.art{
+	padding: 10px;
+	border-radius: 100%;
+}
+
+h1{
+	text-align: right;
+	font-size: 25px;
+	font-family: Helvetica;
+	color: #000;
+}
+
+h2{
+	font-family: Helvetica;
+	font-size: 20px;
+	color:#000;
+}
+
+p{
+	font-family:;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.circle-1{
+	border-radius: 100%;
+}
+
+.circle-2{
+	border-radius: 100%;
+}
+
+.circle-3{
+	border-radius: 100%;
+}
+
+.intro{
+	text-align: right;
+}
+
+.email{
+	margin-bottom: 0;
+}
+
+.number{
+	margin-top: 0;
+}
+
+.buttons{
+	max-width: 50px;
+	min-width: 50px;
+	display: inline-block;
+	margin: 20px;
+	border-radius: 100%;
+}
+
+nav{
+	font-weight: lighter;
+	font-family: helvetica;
+	font-size: 12pt;
+	background-color: #0D3547;
+	padding:10px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	margin-left:20px;
+	padding:5px;
+	display: inline-block;
+	text-decoration: none;
+	width:18%;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav:hover{
+	color: #000;
+}
