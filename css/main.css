@@ -22,22 +22,66 @@ body{
 }
 
 .logo{
-width: 20%;
+padding-top: 25px;
+padding-left: 20px;
+font-size: 30pt;
+color: #fff;
+text-align: left;
+font-family: Milasian Circa PERSONAL;
 }
 
 .hero {
-	padding: 20px;
-	background-color: #D7FFFB;
+	padding-top: 9em;
+	padding-bottom: 9em;
+	background-image: url("../images/background.png");
+	text-align: center;
+	width: 100%;
+
+}
+.gradient {
+	background-image:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.large {
+	text-align: left;
+	font-size: 120pt;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+.medium {
+	text-align: left;
+	font-size: 60pt;
+	color: #fff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.hero-small {
+	padding-top: 7em;
+	padding-bottom: 7em;
+	background-image: url("../images/background.png");
+	text-align: center;
+	width: 100%;
+}
+
+.intro {
+	color: #fff;
+	font-size: 20pt;
+	line-height: 22pt;
+	font-family: helvetica;
+	padding:30px;
 }
 
 .work {
 	padding: 20px;
-	background-color: #E6E7E8;
 }
 
 .contact {
 	padding: 20px;
-		background-color: #F1F2F2;
 }
 
 .art{
@@ -56,12 +100,17 @@ h1{
 
 h2{
 	font-family: Helvetica;
-	font-size: 20px;
-	color:#000;
+	font-size: 30px;
+	color:#fff;
+}
+
+.heading {
+	background-color: #0D3547;
+	padding: 20px;
 }
 
 p{
-	font-family:;
+	font-family: helvetica;
 	font-size: 16px;
 	line-height: 21px;
 	text-align: center;
@@ -70,6 +119,11 @@ p{
 .page-head{
 	text-align: center;
 	padding-top: 50px;
+}
+
+.title :hover{
+	color: #8EE2DC;
+	cursor: pointer;
 }
 
 .signage{
@@ -114,13 +168,15 @@ padding: 20px;
 	border-radius: 100%;
 }
 
-nav{
-	font-weight: lighter;
-	font-family: helvetica;
-	font-size: 12pt;
+header{
 	background-color: #0D3547;
-	padding:10px;
-		text-align: left;
+
+}
+nav{
+	font-weight: medium;
+	font-family: helvetica;
+	font-size: 13pt;
+	padding:20px;
 }
 
 nav ul{
@@ -135,6 +191,7 @@ nav li{
 	display: inline-block;
 	text-decoration: none;
 	width:18%;
+	text-align: right;
 }
 
 a{
@@ -142,6 +199,7 @@ a{
 	text-decoration: none;
 }
 
-.nav:hover{
-	color: #000;
+nav li :hover{
+	color: #8EE2DC;
+
 }
