@@ -1,0 +1,3 @@
+Sitemap: http://heathersanders.ca/sitemap.xml
+
+User-agent: *

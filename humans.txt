@@ -1,0 +1,28 @@
+# humanstxt.org
+
+# Team
+
+Designer & Developer: Heather Sanders
+Site: http://heathersanders.ca/
+Facebook: https://www.facebook.com/heather.sanders.125
+Linkedin: www.linkedin.com/profile/view?id=AAIAABiYXR0Bws_cHtcGQxcbW14SbJIQ0gGDw8I&trk=nav_responsive_tab_profile_pic
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Sublime Text
+- Github
+
+## Hosting
+
+- Hover
