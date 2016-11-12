@@ -13,183 +13,189 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body{
-  margin: 0;
-  text-align: center;
+	margin: 0;
+	text-align: center;
 }
 
 .logo{
-  width: 100%;
-  padding-top: 20px;
+	width: 100%;
+	padding-top: 20px;
 }
 
 .hero {
-  padding-top: 9em;
-  padding-bottom: 9em;
-  background-image: url("../images/background.png");
-  text-align: center;
-  width: 100%;
+	padding-top: 9em;
+	padding-bottom: 9em;
+	background-image: url("../images/background.png");
+	text-align: center;
+	width: 100%;
 
 }
 .gradient {
-  background-image:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+	background-image:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
 }
 
 .large {
-  text-align: left;
-  font-size: 120pt;
-  color: #fff;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 50px;
+	text-align: left;
+	font-size: 120pt;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 50px;
 }
 
 .medium {
-  text-align: left;
-  font-size: 60pt;
-  color: #fff;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  text-align: center;
+	text-align: left;
+	font-size: 55pt;
+	color: #fff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+  line-height: 55pt;
 }
 
 .hero-small {
-  padding-top: 7em;
-  padding-bottom: 7em;
-  background-image: url("../images/background.png");
-  text-align: center;
-  width: 100%;
+	padding-top: 7em;
+	padding-bottom: 7em;
+	background-image: url("../images/background.png");
+	text-align: center;
+	width: 100%;
 }
 
 .intro {
-  color: #fff;
-  font-size: 20pt;
-  line-height: 22pt;
-  font-family: helvetica;
-  padding:30px;
+	color: #fff;
+	font-size: 20pt;
+	line-height: 22pt;
+	font-family: helvetica;
+	padding:30px;
 }
 
 .work {
-  padding: 20px;
+	padding: 20px;
 }
 
 .contact {
-  padding: 20px;
+	padding: 20px;
 }
 
 .art{
-  padding: 10px;
-  border-radius: 100%;
-  height: 200px;
-  width: 200px;
+	padding: 10px;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+}
+
+img{
+ width: 100% auto;
 }
 
 h1{
-  text-align: right;
-  font-size: 25px;
-  font-family: Helvetica;
-  color: #000;
+	text-align: right;
+	font-size: 25px;
+	font-family: Helvetica;
+	color: #000;
 }
 
 h2{
-  font-family: Helvetica;
-  font-size: 30px;
-  color:#fff;
+	font-family: Helvetica;
+	font-size: 30px;
+	color:#fff;
 }
 
 .heading {
-  background-color: #0D3547;
-  padding: 20px;
+	background-color: #0D3547;
+	padding: 20px;
 }
 
 p{
-  font-family: helvetica;
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
+	font-family: helvetica;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
 }
 
 .page-head{
-  text-align: center;
-  padding-top: 50px;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .title :hover{
-  color: #8EE2DC;
-  cursor: pointer;
+	color: #8EE2DC;
+	cursor: pointer;
 }
 
 .paragraph{
-  padding: 20px;
+	padding: 20px;
 }
 
 .circle-1{
-  border-radius: 100%;
+	border-radius: 100%;
 }
 
 .circle-2{
-  border-radius: 100%;
+	border-radius: 100%;
 }
 
 .circle-3{
-  border-radius: 100%;
+	border-radius: 100%;
 }
 
 .intro{
-  text-align: right;
+	text-align: right;
 }
 
 .email{
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .number{
-  margin-top: 0;
+	margin-top: 0;
 }
 
 .buttons{
-  max-width: 50px;
-  min-width: 50px;
-  display: inline-block;
-  margin: 20px;
-  border-radius: 100%;
+	max-width: 50px;
+	min-width: 50px;
+	display: inline-block;
+	margin: 20px;
+	border-radius: 100%;
 }
 
 header{
-  background-color: #0D3547;
+	background-color: #0D3547;
 
 }
 nav{
-  font-weight: medium;
-  font-family: helvetica;
-  font-size: 13pt;
-  padding:20px;
+	font-weight: medium;
+	font-family: helvetica;
+	font-size: 13pt;
+	padding:20px;
 }
 
 nav ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 nav li{
-  margin-left:20px;
-  padding:5px;
-  display: inline-block;
-  text-decoration: none;
-  width:18%;
-  text-align: right;
+	margin-left:20px;
+	padding:5px;
+	display: inline-block;
+	text-decoration: none;
+	width:18%;
+	text-align: right;
 }
 
 a{
-  color: #fff;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
 nav li :hover{
-  color: #8EE2DC;
+	color: #8EE2DC;
 
 }
+
