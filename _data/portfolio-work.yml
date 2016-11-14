@@ -1,23 +1,31 @@
 - title: "Logo Design"
+  link: "logo"
   image: "images/logo-animal-hospital.png"
 
 - title: "Soda Tab Typeface"
+  link: "sodatab"
   image: "images/Font-Specimen-Posters1.png"
 
 - title: "The lovely Bones - Movie Poster"
+  link: "movieposter"
   image: "images/Movie-Poster-LovelyBones-full.png"
 
 - title: "Event Poster Design"
+  link: "eventposter"
   image: "images/Artboard-2.png"
 
 - title: "Josh Agle Inspired Illustration"
+  link: "illustration"
   image: "images/agleillustration-01.png"
 
 - title: "Art Deco Poster"
+  link: "artdeco"
   image: "images/foxes-01.png"
 
 - title: "The Lion King - Movie Poster"
+  link: "movieposterlion"
   image: "images/Movie-Poster-LionKing-full.png"
 
 - title: "Transit Shelter Advertisement"
+  link: "transit"
   image: "images/Transit-shelter-full.png"
