@@ -49,12 +49,10 @@ body{
 
 .medium {
 	text-align: left;
-	font-size: 55pt;
 	color: #fff;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align: center;
-  line-height: 55pt;
 }
 
 .hero-small {
