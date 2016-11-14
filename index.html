@@ -4,65 +4,25 @@ layout: default
 
 <main>
 
-<div class="grid">
+<div id ="about" class="grid">
   <div class="hero">
-    <h1 id="about"class="large unit xs-1 s-1 m-1-2 l-1-2">Hello.</h1>
+    <h1 class="large unit xs-1 s-1 m-1-2 l-1-2">Hello.</h1>
     <p class="intro unit xs-1 s-1 m-1-2 l-1-2">Welcome to my portfolio! As a child of the 90's technology became second nature and the joy of designing came along with it.</p>
   </div>
 </div>
 
   <div class="grid">
     <h2 id="work" class="heading unit xs-1 s-1 m-1 l-1">Work</h2>
-    <div class="work">
-        <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="logo.html">
-          <img class="art" src="images/logo-animal-hospital.png" alt="">
-          </a>
-          <p class="title">Logo Design</p>
-        </div>
 
+    <div class="work">
+    {% for work in site.data.portfolio-work %}
         <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="sodatab.html">
-          <img class="art" src="images/Font-Specimen-Posters1.png" alt="">
+          <a href="{{site.baseurl}}/{{work.link}}">
+          <img class="art" src="{{site.baseurl}}{{work.image}}" alt="">
           </a>
-          <p class="title">Soda Tab Typeface</p>
+          <p class="title">{{work.title}}</p>
         </div>
-        <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="movieposter.html">
-          <img class="art" src="images/Movie-Poster-LovelyBones-full.png" alt="">
-          </a>
-          <p class="title">The lovely Bones - Movie Poster</p>
-        </div>
-        <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="eventposter.html">
-          <img class="art" src="images/Artboard-2.png" alt="">
-          </a>
-          <p class="title">Event Poster Design</p>
-        </div>
-        <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="illustration.html">
-          <img class="art" src="images/agleillustration-01.png" alt="">
-          </a>
-          <p class="title">Josh Agle Inspired Illustration</p>
-        </div>
-        <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="artdeco">
-          <img class="art" src="{{site.baseurl}}/images/foxes-01.png" alt="">
-          </a>
-          <p class="title">Art Deco Poster</p>
-        </div>
-        <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="movieposterlion.html">
-          <img class="art" src="images/Movie-Poster-LionKing-full.png" alt="">
-          </a>
-          <p class="title">The Lion King - Movie Poster</p>
-        </div>
-        <div class="unit xs-1-centered s-1-2-centered m-1-2-centered l-1-2-centered island">
-          <a href="transit.html">
-          <img class="art" src="images/Transit-shelter-full.png" alt="">
-          </a>
-          <p class="title">Transit Shelter Advertisement</p>
-        </div>
+      {% endfor %}
   </div>
 </div>
 
