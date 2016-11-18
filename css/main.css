@@ -40,7 +40,7 @@ body{
 
 .large {
 	text-align: left;
-	font-size: 120pt;
+	font-size: 60pt;
 	color: #fff;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -197,3 +197,21 @@ nav li :hover{
 
 }
 
+@media only screen and (min-width: 38em) {
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 90em) {
+
+.large {
+	text-align: left;
+	font-size: 120pt;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+}
