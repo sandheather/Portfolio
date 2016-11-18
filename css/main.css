@@ -180,11 +180,9 @@ nav ul{
 }
 
 nav li{
-	margin-left:20px;
-	padding:5px;
 	display: inline-block;
 	text-decoration: none;
-	width:18%;
+	width:30%;
 	text-align: right;
 }
 
