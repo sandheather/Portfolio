@@ -23,7 +23,9 @@ body{
 
 .logo{
 	width: 100%;
-	padding-top: 20px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: px;
 }
 
 .hero {
@@ -48,11 +50,11 @@ body{
 }
 
 .medium {
-	text-align: left;
 	color: #fff;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align: center;
+	line-height: 50pt;
 }
 
 .hero-small {
@@ -166,6 +168,7 @@ header{
 	background-color: #0D3547;
 
 }
+
 nav{
 	font-weight: medium;
 	font-family: helvetica;
@@ -211,6 +214,20 @@ nav li :hover{
 }
 
 @media only screen and (min-width: 60em) {
+
+	nav li{
+	display: inline-block;
+	text-decoration: none;
+	width:10%;
+	text-align: right;
+}
+
+nav{
+	font-weight: medium;
+	font-family: helvetica;
+	font-size: 13pt;
+	padding-left:20px;
+}
 }
 
 @media only screen and (min-width: 90em) {
@@ -222,6 +239,20 @@ nav li :hover{
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-left: 50px;
+}
+
+nav li{
+	display: inline-block;
+	text-decoration: none;
+	width:10%;
+	text-align: right;
+}
+
+nav{
+	font-weight: medium;
+	font-family: helvetica;
+	font-size: 13pt;
+	padding-left:20px;
 }
 
 }
