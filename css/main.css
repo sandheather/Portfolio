@@ -21,6 +21,10 @@ body{
 	text-align: center;
 }
 
+.giffy{
+	width: 100%;
+}
+
 .logo{
 	width: 100%;
 	padding-top: 15px;
